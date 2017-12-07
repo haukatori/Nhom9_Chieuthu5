@@ -1,0 +1,150 @@
+﻿body {
+	background: url(../images/background-updated.png) no-repeat  center;
+	background-size: ;
+	color: #ffffff;
+	font-family:  Roboto,sans-serif, Arial;
+	font-size: 12.5px;
+}
+
+a {
+	color: black;
+	font-weight: 800;
+
+}
+a:hover {
+    color: white;
+	 text-decoration: none;
+}
+a:visited, a:active, a:link {
+    text-decoration: none;
+
+	color: black;
+}
+.container-fluid {
+	width: 100%;
+}
+.container {
+	width: 1024px;
+	margin: auto;
+}
+header {
+	height: 137px;
+}
+header .row {
+	text-align: center;
+}
+header .new {
+	background: url(../images/menu-top-left.png) no-repeat;
+	display: inline-block;
+  width: 245px;
+  height: 64px;
+  line-height: 64px;
+  font-size: 17px;
+  text-align: center;
+  margin-right: -31px;
+
+
+
+}
+
+header .login {
+	background: url(../images/menu-top-right.png) no-repeat;
+	display: inline-block;
+  width: 245px;
+  height: 64px;
+  line-height: 64px;
+  font-size: 17px;
+    text-align: center;
+   margin-left: -31px;
+
+}
+header img {
+	vertical-align: top;
+}
+
+/* SERVICE */
+section {
+
+	height: 944px;
+
+}
+
+section .content {
+	background: url(../images/layout-main.png) no-repeat;
+	margin: auto;
+  width: 866px;
+  height: 506px;
+  line-height: 60px;
+  font-size: 18px;
+
+
+
+}
+
+section .content .text{
+
+  text-align: center;
+
+
+
+}
+
+/* Box styles */
+section .content .myBox {
+	margin: auto;
+border: none;
+padding: 1px;
+font: 12px sans-serif;
+width: 808px;
+height: 375px;
+overflow: scroll;
+line-height: 25px;
+font-size: 14px;
+}
+
+section .content .myBox a {
+	text-decoration: none;
+	color: #82b60b;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 8px;
+height: 0px;
+}
+
+::-webkit-scrollbar-track {
+border: 0px solid yellowgreen;
+}
+
+::-webkit-scrollbar-thumb {
+background: yellowgreen;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #88ba1c;
+}
+
+/* Footer */
+footer {
+	padding-top: 39px;
+}
+footer  .copyright {
+	text-align: justify;
+}
+
+
+@media all and (max-width: 1366px) {
+    body {
+        background: black url(../images/background-updated-1366.png) no-repeat;
+
+    }
+	section {
+
+	height: 630px !important;
+
+}
+footer {
+	padding-top: 30px;
+}
+	}
